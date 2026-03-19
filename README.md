@@ -48,7 +48,8 @@ XXX
 * Add withdrawal functionality for charity owner
 * Integrate frontend dashboard
 * Add donor leaderboard
-
+ ---
+ contract address-CDT2BXZL37UUX6Y2EFR444XTLWX3LR2BSRC4J4AYY7KX5GB76FGDX7HD
 ---
 
 <img width="1912" height="952" alt="Screenshot 2026-03-19 145127" src="https://github.com/user-attachments/assets/58010bd3-b259-4209-9a2a-164141c05d99" />
