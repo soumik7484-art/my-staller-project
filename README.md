@@ -51,6 +51,8 @@ XXX
 
 ---
 
+<img width="1912" height="952" alt="Screenshot 2026-03-19 145127" src="https://github.com/user-attachments/assets/58010bd3-b259-4209-9a2a-164141c05d99" />
+
 ## 👨‍💻 Author
 
 Soumik Chatterjee
