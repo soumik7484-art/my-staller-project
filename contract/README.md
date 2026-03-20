@@ -1,58 +1,22 @@
-# Charity Donation Tracker (Soroban Smart Contract)
+# Soroban Project
 
-## 📌 Project Description
+## Project Structure
 
-The Charity Donation Tracker is a decentralized application built on the Stellar blockchain using Soroban smart contracts. It allows users to donate funds transparently while keeping track of individual and total donations in a secure and immutable way.
+This repository uses the recommended structure for a Soroban project:
 
-This project is designed as a beginner-friendly Web3 solution to demonstrate how blockchain can improve trust and transparency in charity systems.
+```text
+.
+├── contracts
+│   └── hello_world
+│       ├── src
+│       │   ├── lib.rs
+│       │   └── test.rs
+│       └── Cargo.toml
+├── Cargo.toml
+└── README.md
+```
 
----
-
-## 🚀 What it does
-
-* Enables users to donate to a charity using their blockchain address
-* Stores each donor's contribution securely on-chain
-* Tracks total donations collected
-* Allows anyone to verify donation data publicly
-
----
-
-## ✨ Features
-
-* 🔐 Secure donation tracking using blockchain
-* 👤 Individual donor contribution tracking
-* 📊 Real-time total donation calculation
-* 🌍 Fully transparent and decentralized
-* ⚡ Built with Soroban smart contracts on Stellar
-
----
-
-## 🔗 Deployed Smart Contract Link
-
-XXX
-
----
-
-## 🛠️ Tech Stack
-
-* Stellar Blockchain
-* Soroban Smart Contracts (Rust)
-* Rust Programming Language
-
----
-
-## 📈 Future Improvements
-
-* Add multiple charity campaigns
-* Add withdrawal functionality for charity owner
-* Integrate frontend dashboard
-* Add donor leaderboard
-
----
-
-## 👨‍💻 Author
-
-Soumik Chatterjee
-First Year CSE (AI & ML) Student
-
----
+- New Soroban contracts can be put in `contracts`, each in their own directory. There is already a `hello_world` contract in there to get you started.
+- If you initialized this project with any other example contracts via `--with-example`, those contracts will be in the `contracts` directory as well.
+- Contracts should have their own `Cargo.toml` files that rely on the top-level `Cargo.toml` workspace for their dependencies.
+- Frontend libraries can be added to the top-level directory as well. If you initialized this project with a frontend template via `--frontend-template` you will have those files already included.
